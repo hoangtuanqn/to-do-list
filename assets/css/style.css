@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  background-color: #FE4D55;
+}
+.main {
+  margin: 10% auto 0;
+}
+
+.box-center {
+  min-width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-height: calc(100% - 20px);
+  padding-bottom: 20px; 
+}
+
+.hightlight {
+  color: #FE4D55;
+}
+h1 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 35px;
+}
+h2 {
+  text-align: center;
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.76);
+}
+.note {
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 7px;
+  width: 100%;
+  margin-top: 35px;
+  height: 38px;
+  font-size: 15px;
+  padding: 0 8px;
+}
+.main-box {
+  padding: 0 25px;
+}
+.btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  background-color: #FE4D55;
+}
+.btn-full {
+  padding: 10px;
+  width: 100%;
+}
+.btn:hover {
+  background-color: rgba(254, 77, 85, 0.8);
+}
+.btn-disable,
+.btn-disable:hover {
+  background-color: rgba(254, 77, 85, 0.5);
+  cursor: auto;
+}
+ul {
+  margin-bottom: 20px;
+}
+
+.btn-s {
+  padding: 5px;
+}
+.size-s {
+  font-size: 10px;
+  margin-top: 4px;
+}
+.size-m {
+  font-size: 18px;
+}
+.notifi {
+  display: none;
+  justify-content: center;
+  width: 100%;
+}
+.icon-close {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.list-data li {
+  max-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 15px;
+  height: 100%;
+  /* overflow: hidden; */
+}
+li a {
+  /* display: block; */
+  text-indent: 20px;
+  width: 380px;
+  display: block;
+  word-wrap: break-word;
+  text-align: justify;
+  word-spacing: -0.5px;
+}
+.notifi span {
+  width: 98%;
+  padding: 18px;
+  margin-top: 20px;
+  display: inline-flex;
+  background-color: rgb(255, 0, 0, 0.5);
+  color: #fff;
+  justify-items: center;
+  border-radius: 14px;
+  justify-content: space-between;
+}
