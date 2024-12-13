@@ -20,7 +20,7 @@ btnElement.addEventListener('click', (e) => {
         return;
     }
     dataElement.innerHTML += `<li class="data-${++i}">
-        <b> ➤ </b><a>${ipElement.value}</a>
+            <p class="note-list">${ipElement.value}</p>
         <button class="btn btn-s" onclick="remove(${i})">Delete</button>
     </li>`
     ipElement.value = '';
